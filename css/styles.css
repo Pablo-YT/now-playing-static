@@ -195,3 +195,45 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media only screen and (min-width: 768px) { 
+
+ .site-nav {
+    width: 7%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+li.site-nav-item{
+  width: 15%;
+  height: 83px;
+  float: none;
+  margin: 12px;
+  padding-left: 9px;
+  padding-top: 80px;
+}
+
+.site-nav-item > .fa{
+  padding-left: 9px;
+}
+.site-nav-item-label{
+  padding-left: 6px;
+}
+h1.site-logo{
+
+  position: fixed;
+  z-index: 200;
+  padding-right: 17px;
+  margin-left: -3px;
+
+}
+.movie{
+  margin-left: 79px;
+}
+.movie-overview{
+  display: inline-block;
+}
+
+
+}
